@@ -1,9 +1,8 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('data/employees-pandas.csv')
 
-df.to_string()
+df.plot()
 
-print(df)
-
-print(df.info())
+plt.show()
